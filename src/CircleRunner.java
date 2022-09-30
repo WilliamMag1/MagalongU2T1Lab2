@@ -1,5 +1,8 @@
 public class CircleRunner {
     public static void main(String[] args) {
+
+        Circle circle1 = new Circle (5);
+        circle1.printArea();
         // A. create a Circle object with radius 5.0
 
         // B. locate the method defined in the Circle class and write
@@ -9,4 +12,6 @@ public class CircleRunner {
 
         // D. run the code and confirm your prediction! Were you correct?
     }
-}
+
+    }
+
